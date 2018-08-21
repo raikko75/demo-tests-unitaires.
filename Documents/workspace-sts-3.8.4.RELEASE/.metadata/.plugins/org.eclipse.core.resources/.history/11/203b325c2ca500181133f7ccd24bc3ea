@@ -1,0 +1,18 @@
+package services;
+
+import javax.persistence.EntityManager;
+
+import model.Livre;
+
+public class DaoPizza implements IDaoPizza {
+
+	public DaoPizza(EntityManager em)
+	{
+		
+	}
+		
+	public Livre find(int id) {
+		return null;
+	}
+
+}

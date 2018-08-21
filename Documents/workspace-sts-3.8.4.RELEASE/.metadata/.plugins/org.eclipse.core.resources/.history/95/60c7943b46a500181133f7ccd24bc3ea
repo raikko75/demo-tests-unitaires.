@@ -1,0 +1,35 @@
+package model;
+
+import java.util.Set;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+
+@Entity
+@Table(name="Emprunt")
+public class Emprunt {
+	@Id
+	private String id;
+	@Column
+	private String date_debut;
+	@Column
+	private String date_fin;
+	@Column
+	private String delai;
+	
+	
+	@ManyToMany
+	   @JoinTable(name="RES_CH", 
+	         joinColumns= @JoinColumn(name="ID_RES", referencedColumnName="ID"),
+		      inverseJoinColumns= @JoinColumn(name="ID_CH", referencedColumnName="ID")
+	    )
+	private Set<Livre> chambres;
+
+
+}

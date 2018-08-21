@@ -1,29 +1,33 @@
-import java.util.Map;
-
-import javax.persistence.Cache;
-import javax.persistence.EntityGraph;
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
-import javax.persistence.PersistenceUnitUtil;
-import javax.persistence.Query;
-import javax.persistence.SynchronizationType;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.metamodel.Metamodel;
+
+import model.Emprunt;
+import model.Livre;
+import services.DaoPizza;
+import services.IDaoPizza;
 
 public class TestJpa {
 
+	
 	public TestJpa(){
 		
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		EntityManagerFactory entityFactory = new Persistence().createEntityManagerFactory("pu_essai");
 		EntityManager entityManager = entityFactory.createEntityManager();
+		IDaoPizza idao = new DaoPizza(entityManager);
 		
-		
+		Livre l = idao.find(1);
+		//System.out.println( l.getTitre());
+	
+		Emprunt e = new Emprunt();
+		//System.out.println(idao.searchEmprunt(1).getLivre().get(0).getTitre());
+		System.out.println(idao.searchEmpruntToClient("YU").getEmprunt().getClass().getName());
 
 	}
+	
+
 
 }

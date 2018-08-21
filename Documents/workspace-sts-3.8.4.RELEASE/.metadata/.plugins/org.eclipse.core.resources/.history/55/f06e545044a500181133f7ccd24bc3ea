@@ -1,0 +1,19 @@
+package model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Emprunt")
+public class Emprunt {
+	@Id
+	private String id;
+	@Column
+	private String date_debut;
+	@Column
+	private String date_fin;
+	@Column
+	private String delai;
+}

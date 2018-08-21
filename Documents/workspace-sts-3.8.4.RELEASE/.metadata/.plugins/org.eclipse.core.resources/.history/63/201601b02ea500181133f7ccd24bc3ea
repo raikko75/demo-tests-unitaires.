@@ -1,0 +1,7 @@
+package services;
+
+import model.Livre;
+
+public interface IDaoPizza {
+	Livre find(int id);
+}

@@ -1,0 +1,10 @@
+package services;
+
+import javax.persistence.TypedQuery;
+
+import model.Livre;
+
+public interface IDaoPizza {
+	Livre find(int id);
+	Livre findByTitle(String title);
+}

@@ -1,0 +1,34 @@
+package services;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Query;
+import javax.persistence.TypedQuery;
+
+import model.Livre;
+
+public class DaoPizza implements IDaoPizza {
+	private EntityManager em;
+	
+	public DaoPizza(EntityManager em)
+	{
+		this.em = em;
+	}
+
+	public Livre find(int id) {
+		Livre l  = em.find(Livre.class, id);
+		if(l !=null){
+			return l;
+
+		}else{
+			return null;
+		}
+
+	}
+
+	public Livre findByTitle(String title) {
+		TypedQuery<Livre> query2 = em.createQuery("select h from Hotel h where h.nom='nom2'", Livre.class);
+
+		return null;
+	}
+
+}

@@ -1,6 +1,5 @@
 INDEX VERSION 1.130+C:\Users\yazid\Documents\workspace-sts-3.8.4.RELEASE\.metadata\.plugins\org.eclipse.jdt.core
 1322919406.index
-3839765287.index
 1022763649.index
 3374668580.index
 1118606225.index
