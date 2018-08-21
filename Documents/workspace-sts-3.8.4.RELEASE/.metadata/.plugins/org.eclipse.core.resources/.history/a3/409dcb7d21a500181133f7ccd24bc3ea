@@ -1,0 +1,29 @@
+import java.util.Map;
+
+import javax.persistence.Cache;
+import javax.persistence.EntityGraph;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.PersistenceUnitUtil;
+import javax.persistence.Query;
+import javax.persistence.SynchronizationType;
+import javax.persistence.criteria.CriteriaBuilder;
+import javax.persistence.metamodel.Metamodel;
+
+public class TestJpa {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EntityManagerFactory entityFactory = new EntityManagerFactory();
+		EntityManager entityManager = new EntityManager();
+		
+		/* Chargement du driver JDBC pour MySQL */
+		try {
+		    Class.forName( "com.mysql.jdbc.Driver" );
+		    System.out.println("crée");
+		} catch ( ClassNotFoundException e ) {
+		    /* Gérer les éventuelles erreurs ici. */
+		}
+	}
+
+}

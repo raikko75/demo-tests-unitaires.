@@ -1,0 +1,52 @@
+package fr.operateurs.console;
+
+import java.util.Scanner;
+
+public class Menu {
+
+	public static int tab[] = new int [0];
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		menu(sc);
+	}
+
+	public static void menu(Scanner sc ){
+		System.out.println("Choisi un choix ");
+		System.out.println("1- Ajoute un nombre pour le tableau ");
+		System.out.println("2- Affiche le tableau ");
+		int reponse = sc.nextInt();
+		
+		switch (reponse) {
+		case 1:  addValueIntoTable(sc);
+		break;
+		case 2:  showTable(sc);
+		break;
+		default: menu(sc);
+		break;
+		}
+	}
+	private static void showTable(Scanner sc) {
+		
+		for(int temp : tab){
+			System.out.println(temp);
+		}
+		menu(sc);
+	}
+	private static void addValueIntoTable(Scanner sc) {
+		
+		System.out.println("Entre un nombre a ajouter");
+		int value = sc.nextInt();
+		int tab2 [] = new int[tab.length+1];
+	
+	
+			tab2[tab.length] = value;
+		
+		tab = tab2;
+		menu(sc);
+	}
+
+
+
+}

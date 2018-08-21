@@ -1,0 +1,8 @@
+package pizza.exception;
+
+public class DeleteException {
+	
+	public DeleteException(String message) {
+		
+	}
+}

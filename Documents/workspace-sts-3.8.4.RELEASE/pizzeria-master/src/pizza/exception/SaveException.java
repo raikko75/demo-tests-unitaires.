@@ -1,0 +1,7 @@
+package pizza.exception;
+
+public class SaveException extends ResponseException {
+
+	public SaveException(String value) {}
+	
+}

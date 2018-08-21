@@ -1,0 +1,7 @@
+package pizza.exception;
+
+public class UpdateException {
+	public UpdateException (String message){
+	 
+	}
+}

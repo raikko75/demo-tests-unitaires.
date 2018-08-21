@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+<fullyQualifiedTypeName name="fr.pizzeria.model.Pizza.Pizza"/>
+<fullyQualifiedTypeName name="fr.pizza.Dao.IPizzaDao"/>
+<fullyQualifiedTypeName name="fr.pizza.Dao.PizzaArrayDao"/>
+<fullyQualifiedTypeName name="fr.pizzeria.console.PizzeriaAdminConsoleApp"/>
+<fullyQualifiedTypeName name="fr.pizza.services.MenuServiceFactory"/>
+<fullyQualifiedTypeName name="com.sun.glass.ui.Menu"/>
+<fullyQualifiedTypeName name="fr.pizza.services.MenuService"/>
+<fullyQualifiedTypeName name="fr.pizza.services.ListerPizzasService"/>
+<fullyQualifiedTypeName name="fr.pizza.services.AjouterPizzaService"/>
+<fullyQualifiedTypeName name="fr.pizza.services.ModifierPizzaService"/>
+<fullyQualifiedTypeName name="fr.pizza.services.SupprimerPizzaService"/>
+<fullyQualifiedTypeName name="fr.pizzeria.exception.DeletePizzaException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="fr.pizzeria.exception.SavePizzaException"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable"/>
+<fullyQualifiedTypeName name="fr.pizzeria.exception.UpdatePizzaException"/>
+<fullyQualifiedTypeName name="fr.pizzeria.exception.StockageException"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="fr.pizzeria.model.PizzaDD"/>
+</qualifiedTypeNameHistroy>

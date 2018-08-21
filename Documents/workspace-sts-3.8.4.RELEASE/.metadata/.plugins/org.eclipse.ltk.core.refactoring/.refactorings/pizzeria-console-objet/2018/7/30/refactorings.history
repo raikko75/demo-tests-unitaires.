@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;p&apos; in &apos;fr.pizzeria.console.PizzeriaAdminConsoleApp&apos; to &apos;pizzas&apos;&#x0D;&#x0A;- Original project: &apos;pizzeria-console-objet&apos;&#x0D;&#x0A;- Original element: &apos;fr.pizzeria.console.PizzeriaAdminConsoleApp.p&apos;&#x0D;&#x0A;- Renamed element: &apos;fr.pizzeria.console.PizzeriaAdminConsoleApp.pizzas&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;p&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;fr.pizzeria.console{PizzeriaAdminConsoleApp.java[PizzeriaAdminConsoleApp^p" name="pizzas" references="true" setter="false" stamp="1532436244166" textual="false" version="1.0"/>
+</session>
